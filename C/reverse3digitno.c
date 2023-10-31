@@ -6,9 +6,9 @@ int main() {
     printf("Enter a 3-digit number: ");
     scanf("%d", &num);
 
-    // Check if the input is a 3-digit number
+   
     if (num >= 100 && num <= 999) {
-        // Reverse the number
+     
         reversedNum += (num % 10) * 100;
         num /= 10;
         reversedNum += (num % 10) * 10;
